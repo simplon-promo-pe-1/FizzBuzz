@@ -34,7 +34,7 @@ public class FizzBuzzTest {
         assertEquals(
                 "La correspondance pour 5 doit être Buzz.",
                 "Buzz",
-                fizzBuzz.determinerCorrespondance(0)
+                fizzBuzz.determinerCorrespondance(5)
         );
     }
 }

@@ -26,9 +26,30 @@ public class FizzBuzz {
         // TODO code à définir
     }
 
+
     protected String determinerCorrespondance(int entier) {
-        // TODO code à étoffer
-        return "0";
+        
+        // Si le nombre est 0 alors j'affiche 0 
+        if (entier == 0) {
+
+            return "0"; 
+
+        // Sinon si l'entier est divisible par 3 j'affiche Fizz
+        } else if (entier%3 == 0) {
+
+            return "Fizz";
+
+        //Sinon si l'entier est divisible par 5 j'affiche Buzz
+        } else if (entier%5 == 0 ) {
+
+            return "Buzz";
+
+        //Et sinon j'affiche l'entier
+        }   else {
+
+            return "entier";
+
+        }   
     }
 
 }
