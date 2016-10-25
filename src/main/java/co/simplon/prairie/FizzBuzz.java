@@ -47,7 +47,7 @@ public class FizzBuzz {
         //Et sinon j'affiche l'entier
         }   else {
 
-            return "entier";
+            return Integer.toString(entier);
 
         }   
     }
