@@ -37,7 +37,8 @@ public class FizzBuzzTest {
                 fizzBuzz.determinerCorrespondance(5)
         );
     }
-@Test
+
+    @Test
     public void la_correspondance_de_15_est_Fizz() {
         FizzBuzz fizzBuzz = new FizzBuzz();
         assertEquals(
@@ -46,7 +47,8 @@ public class FizzBuzzTest {
                 fizzBuzz.determinerCorrespondance(15)
         );
     }
-@Test
+    
+    @Test
     public void la_correspondance_de_12_est_Fizz() {
         FizzBuzz fizzBuzz = new FizzBuzz();
         assertEquals(
@@ -55,7 +57,8 @@ public class FizzBuzzTest {
                 fizzBuzz.determinerCorrespondance(12)
         );
     }
-@Test
+    
+    @Test
     public void la_correspondance_de_10_est_Buzz() {
         FizzBuzz fizzBuzz = new FizzBuzz();
         assertEquals(
@@ -64,7 +67,8 @@ public class FizzBuzzTest {
                 fizzBuzz.determinerCorrespondance(10)
         );
     }
-@Test
+    
+    @Test
     public void la_correspondance_de_9_est_Fizz() {
         FizzBuzz fizzBuzz = new FizzBuzz();
         assertEquals(
@@ -73,6 +77,7 @@ public class FizzBuzzTest {
                 fizzBuzz.determinerCorrespondance(9)
         );
     }
+    
     @Test
     public void la_correspondance_de_7_est_7() {
         FizzBuzz fizzBuzz = new FizzBuzz();
