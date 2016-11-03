@@ -11,6 +11,7 @@
 Ecrire un programme permettant l'affichage d'une série d'entier sur la sortie standard (un entier par ligne) en appliquant les règles suivantes :
 - Lorsque l'entier est multiple de 3, afficher "Fizz" en lieu et place de l'entier
 - Lorsque l'entier est multiple de 5, afficher "Buzz" en lieu et place de l'entier
+- Branche travailEclipse : quand le chiffre est multiple de 3 et 5 afficher "FizzBuzz" et aussi limiter l'execution à une série de nombres (0 à 50)
 
 Le programme sera lancé par la classe **co.simplon.prairie.Main** mais la logique métier sera portée par la classe **co.simplon.prairie.FizzBuzz**.
 
