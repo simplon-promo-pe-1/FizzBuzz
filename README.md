@@ -6,6 +6,7 @@
 - Découverte des structures de contrôle
 - Algorithmie
 - Tests unitaires
+- Branche ravailEclipse : effectuer les opérations Git via Eclipse
 
 ## Enoncé :
 Ecrire un programme permettant l'affichage d'une série d'entier sur la sortie standard (un entier par ligne) en appliquant les règles suivantes :
